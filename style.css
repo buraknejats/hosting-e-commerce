@@ -1,0 +1,79 @@
+.box {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+  }
+  .carousel-control-prev,
+.carousel-control-next {
+  position: absolute;
+  width:5%;
+}
+.line-through {
+    text-decoration-line: line-through;
+    color: red;
+  }
+.indirim{
+    width: 75px;
+}
+.discount-label {
+    position: absolute;
+    top: -20px;
+    right: -20px;
+    background-color: red;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 50%;
+  }
+  .pricing-table-title{
+    background-color: #000000;
+    font-family: GreycliffCF-Bold;
+    text-align: center;
+}
+.pricing-container
+{
+    background-color: #76B900;
+    width: 100%; 
+}
+
+.pricing-container2{
+    background-color: #caa9a9;
+}
+.pricingButton{
+    background-color: #76B900;
+    width: 326px;
+    border-radius: 0%;
+    height: 40px;
+}
+.m-hosting{
+    background-color: #d1dff4;
+}
+.sınırsız-performansPlus{
+    background-color: #BED730;
+}
+.sınırsız-performans-package{
+    background-color: #F7931F;
+}
+.performans-package{
+    background-color: #EC2A8C;
+}
+.super-baslangıc-package{
+    background-color: #03BBF4;
+}
+a{
+    text-decoration: none;
+}
+@media screen and (max-width:600px) {
+    .carousel-header{
+        display: none;
+    }
+}
+h1{
+    color: #0D314F;
+}
+.bg-section-package{
+    background-color: antiquewhite;
+}
+
